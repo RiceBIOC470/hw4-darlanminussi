@@ -1,5 +1,22 @@
 %HW4 Darlan Conterno Minussi
 %% 
+
+%GB comments:
+1a 100
+1b 100
+1c 100
+1d 50 No explanation of the results as the question asks. 
+2a 100
+2b. 75 You were very close. You properly iterate through time, but you need to iterate and store all the image data through each Z slice (6 image planes) for each time point as well. Then you can use your max function along the 3rd dimension (Z slices) for each time point to store only the highest intensity values in the XY plane. 
+3a. 50. Your script does not iterate through z sections to determine the maximum values. 
+3b 100
+3c 100
+3d 100
+3e 100
+4a. 100 Should consider Z sections, but will not take off points
+4b. 100 Should consider Z sections, but will not take off points
+ Overall = 90
+
 % Problem 1. 
 
 % 1. Write a function to generate an 8-bit image of size 1024x1024 with a random value 
